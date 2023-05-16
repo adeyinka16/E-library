@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+
+    <!-- LINKS -->
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./signup.css">
+
+    
+
+</head>
+<body >
+     <!-- Navbar -->
+     <header class="position-relative">
+        <div class=" container-fluid bg-dark">
+          
+          <nav class="navbar navbar-expand-lg">
+              <div class="container">
+                <a class="navbar-brand" href="./index.html"><i class="fas fa-book m-2"></i>E-Library</a>
+                
+      
+                 <button class="navbar-toggler" href="#offcanvasExample" role="button" data-bs-toggle="offcanvas" aria-controls="offcanvasExample">
+                  <span class="navbar-toggler-icon fs-3"><i class="bi bi-list"></i></span>
+                </button>
+          
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExample">
+                  <div class="offcanvas-header">
+                      <a class="navbar-brand" href="#"><i class="fas fa-books"></i>E-Library</a>
+                    <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                       <ul class="navbar-nav m-auto mb-2 mb-lg-0"> 
+                           <li class="nav-item">
+                           <a class="nav-link  px-3" href="./thirdpage.html">About</a>
+                          </li>
+                         
+                          <li class="nav-item">
+                            <a class="nav-link px-3" href="./Contact.html">Contact</a>
+                          </li>
+                         </ul>
+                         <form class="d-flex">
+                          <button class="btn btn-secondary px-3 mx-2"><a class="text-decoration-none" href=""></a>Log In</button>
+  
+                          <button class="btn btn-danger px-3"><a class="text-decoration-none" href="./Signup.html"></a>Sign Up</button>
+                      </form>     
+                  </div>
+                  </div>
+              </div>
+              
+          </nav>
+        </header>
+       
+        <div class="container form-container opacity-75 col-12 col-md-6 col-lg-5 shadow-lg p-4 text-white mt-4">
+            <!-- <form action="" id="feedback" method="post"> -->
+
+                <label for="name">Name:</label> 
+                <input type="text" name="name" class="form-control" id="name">
+                <label for="email">Email:</label>
+                <input name="email" id="email" class="form-control" placeholder="Enter Your Email..." ></input>
+                <label for="password">Password:</label>
+                <input type="password" id="password" class="form-control" placeholder="Enter Your Preferred password">
+                <p class="fs-5 text-white">Your password must contain</p>
+                <ul class="text-white">
+                    <li>A minimum of 8 characters</li>
+                    <li>Upper case letter</li>
+                    <li>lower case letter</li>
+                    <li>Number check</li>
+                    <li>Special character </li>
+                </ul>
+                <button class="btn btn-dark align-items-end text-white border-2 mt-3 px-5" type="submit">Sign Up</button>
+        </div>
+        
+        <!-- <div class="container d-flex align-items-center justify-content-center h-100 ">
+            <form class="d-flex flex-column p-5">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter Your Name">
+                <label for="email">Email Address:</label>
+            </form>
+        </div> -->
+        
+
+        
+
+
+    
+</body>
+<script src="./signup.js"></script>
+<script src="./bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script>
+</html>

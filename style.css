@@ -1,0 +1,69 @@
+.heropage{
+    background-image: url(./image/modern-big-library-design-black-wooden-library-with-wooden-parquet-realistic-3d-rendering_626958-37.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.offcanvas-body{
+    margin-top: 15px;
+}
+.navbar-toggler{
+    background-color: whitesmoke;
+}
+.offcanvas{
+    background: brown;
+    }
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar-brand:hover{
+    color: firebrick;
+}
+.navbar-nav a{
+    color: white;
+}
+.navbar-nav a:hover{
+    color: blue;
+}
+.form button{
+    border: none;
+    outline: none;
+    /* color: white; */
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+/* .btn2{
+    border: none;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    height: 45px;
+    width: 250px;
+    background-color: white;
+    margin: 15px;
+} */
+/* .search-form{
+    width: 500px;
+    height: 100px;
+} */
+.search-form input{
+    border: none ; 
+    outline: none;
+    /* width: 100%; */
+    cursor: pointer;
+}
+.search-form label{
+    position: relative;
+    right: 30px;
+    /* top: -30px; */
+}
+
